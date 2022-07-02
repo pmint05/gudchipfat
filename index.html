@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Cheap Fast</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <h3>
+            <mc>How</mc> do you want <mc>your project</mc> to be?
+        </h3>
+        <div id="inputs">
+            <div class="good input">
+                <input type="checkbox" name="good" id="good" value="Good" hidden>
+                <label for="good">Good</label>
+            </div>
+            <div class="cheap input">
+                <input type="checkbox" name="cheap" id="cheap" value="Cheap" hidden>
+                <label for="cheap">Cheap</label>
+            </div>
+            <div class="fast input">
+                <input type="checkbox" name="fast" id="fast" value="Fast" hidden>
+                <label for="fast">Fast</label>
+            </div>
+        </div>
+        <button id="okBtn">
+            👌
+        </button>
+        <div id="result">
+            <button id="closeResult">
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <h3>Your project will be</h3>
+            <div id="resultText"></div>
+            <button id="showInfo">
+                <ion-icon name="information-outline"></ion-icon>
+            </button>
+        </div>
+        <div id="info">
+            <img src="https://static.summitracing.com/global/images/prod/xlarge/orb-90158226_xl.jpg" alt="img">
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
