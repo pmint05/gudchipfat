@@ -122,6 +122,13 @@ mc {
 .input input:checked + label::after {
 	left: 48px;
 }
+.input input:hover + label::after {
+    transform:translateY(-50%) scaleX(1.2);
+    transform-origin: left;
+}
+.input input:checked:hover + label::after {
+    transform-origin: right;
+}
 .input input:checked + label::before {
 	background: #88bcd4;
 }
